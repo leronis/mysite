@@ -1,0 +1,31 @@
+.block{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: slateblue;
+} 
+    .block1 {
+        width: 200px;
+        height: 40px;
+        border: solid 2px white;
+    }
+    .block2{
+        width: 140px;
+        height: 60px;
+        padding-top: 20px;
+        padding-left: 40px;
+        margin-top: 20px;
+        margin-left: 120px;
+        border: solid 2px white;
+    }
+    body{
+        background-color: steelblue;
+    }
+    .block3{
+        width: 180px;
+        height: 60px;
+        border: solid 8px white;
+        margin-left: 20px;
+        padding-top: 10px;
+        padding-left: 10px;
+        margin-top: 20px;
+    }

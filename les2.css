@@ -1,0 +1,23 @@
+body{
+    background-color: azure;
+    color: rgb(42,42,42);
+    font-size: 16px;
+    font-family: 'Montserrat',sans-serif;
+}
+img{
+    width :200px;
+    border-radius: 50%;
+    border: 2px solid green;
+}
+a{
+color: rgb(83, 155, 214);
+text-decoration: none ;
+font-weight: 300;
+font-size:20px;
+}
+ul{
+list-style-type: square;
+}
+ul li a{
+    color: teal;
+}

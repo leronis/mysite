@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+    color: brown;
+}
+.content{
+    width: 60%;
+    margin: 0 auto;
+
+}
+.block{
+    height: 50px;
+    width: 80%;
+    background-color: coral;
+    border: 2px dashed brown;
+    margin-bottom: 5px;
+    }
+    .colum1,
+    .colum2
+{
+    width:25%;
+    height: 220px;
+    
+}
+.colum1{
+    float:left;
+    width: 820px;
+    background-color:plum;
+  
+}
+.colum2{
+    float:right;
+    margin-left: 12%;
+    background-color:greenyellow;
+}
+
+.footer{
+    clear :both;
+    background-color: blue;
+}
+

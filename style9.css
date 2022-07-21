@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+    color: brown;
+}
+.content{
+    width: 60%;
+    margin: 0 auto;
+
+}
+.block{
+    height: 50px;
+    width: 100%;
+    background-color: coral;
+    border: 2px dashed brown;
+    margin-bottom: 5px;
+    }
+    .colum1,
+    .colum2,
+.colum3{
+    width:40%;
+}
+.colum1{
+    float:left;
+    padding-top: 40px;
+}
+.colum2{
+    float:right;
+}
+.colum3{
+    margin: 5px auto;
+    clear:both;
+}

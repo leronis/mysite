@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.dad{
+display: flex;
+border: 1px solid rgb(100, 106, 155);
+background-color: rgb(164, 220, 224);
+justify-content: center ;
+}
+
+.menu {
+    display: flex;
+    width: 80%;
+    
+    align-items: center;
+  
+}
+.container,.active{
+    padding: 30px;
+}
+a{
+    color: rgb(137, 68, 177);
+    text-decoration: none;
+    padding: 5px 15px;
+}
+a:hover{
+    color: rgb(197, 146, 245);
+}
+.active>a {
+    background-color: rgb(56, 109, 170);
+    color: white;
+    border-radius: 80px;
+
+}
+.active>a:hover{
+    color: rgb(228, 133, 181);
+}

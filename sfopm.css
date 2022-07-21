@@ -1,0 +1,18 @@
+form{
+    background-color: darkmagenta;
+}
+button[type=submit]{
+    padding: 10px 20px;
+    background-color: darkturquoise;
+    color: black;
+    border-radius: 80px;
+}
+button[type=submit]:hover{
+    padding: 10px 20px;
+    background-color: rgb(211, 62, 174);
+    color: rgb(255, 255, 255);
+    border-radius: 80px;
+}
+input{
+    margin-bottom: 10px;
+}

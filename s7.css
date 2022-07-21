@@ -1,0 +1,27 @@
+.box{
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    border:2px solid black;
+    margin-bottom: 5px;
+}
+.box1{
+    position: static;
+}
+.box2{
+    position: relative;
+    top:-20px;
+    left:50 px;
+}
+.box3{
+    background-color: blue;
+    position: absolute;
+    top:0px;
+    left:0 px;
+}
+.box4{
+    background-color: chartreuse;
+    position: fixed;
+    top:100px;
+    left:800 px;
+}
